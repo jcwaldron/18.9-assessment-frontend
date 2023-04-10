@@ -139,16 +139,15 @@ footer p {
 }
 
 header {
-  width: 100%;
   display: flex;
   justify-content: space-between;
-
 }
 
 form {
   flex-direction: row;
+  justify-content: space-evenly;
   gap: 10px;
-  width: 100%;
+  width: 98%;
 }
 
 form input, form select {
